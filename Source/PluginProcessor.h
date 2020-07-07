@@ -14,6 +14,8 @@
 #include <cmath>
 #include "DiodeClipper.h"
 #include "Oscillator.h"
+//#include "juce_dsp/maths/juce_FastMathApproximations.h"
+
 //==============================================================================
 /**
 */
@@ -59,8 +61,8 @@ public:
 
 private:
     AudioProcessorValueTreeState parameters;
-    std::atomic <float >* gain;
-    std::atomic <float >* out;
+    std::atomic <float>* gain;
+    std::atomic <float>* out;
     DiodeClipper<float> diodeClipper;
     float R = 1000.0f;
     float C = 33e-9;

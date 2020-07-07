@@ -24,8 +24,8 @@ ClippingNonlinearitiesAudioProcessor::ClippingNonlinearitiesAudioProcessor()
 
 #endif
     parameters(*this, nullptr, "ParamTreeIdentifier", {
-    std::make_unique < AudioParameterFloat >("gain", "Gain", 0.0f, 50.0f , 0.5f) ,
-    std::make_unique < AudioParameterFloat >("output", "Level", 0.0f, 1.0f, 0.5f),
+    std::make_unique < AudioParameterFloat >("gain", "Gain", -10.0f, 35.0f , 0.0f) ,
+    std::make_unique < AudioParameterFloat >("output", "Level", -60.0f, 0.0f, -30.0f),
         })
 {
     gain = parameters.getRawParameterValue("gain");
@@ -155,24 +155,24 @@ void ClippingNonlinearitiesAudioProcessor::processBlock (AudioBuffer<float>& buf
     for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
         buffer.clear(i, 0, buffer.getNumSamples());
 
-
+    // get buffer info
     int numSamples = buffer.getNumSamples();
     float* left = buffer.getWritePointer(0);
     float* right = buffer.getWritePointer(1);
 
-    // tanh clipper -----------------------------
-    //for (int i = 0; i < numSamples; i++)
-    //{
-    //    left[i] = *out * tanh(*gain * left[i]);
-    //    right[i] = *out * tanh(*gain * right[i]);
-    //}
+    // get UI params
+    float inGain = pow(10,*gain/20.0f);
+    float outGain = pow(10,*out/20.0f);
 
     // diode clipper
     for (int i = 0; i < numSamples; i++)
     {
+        // for testing
         //left[i] = sineOsc.process();
         //right[i] = sineOsc.process();
-        left[i] = *out * diodeClipper.process(*gain * left[i]);
+
+        // process audio
+        left[i] = outGain * diodeClipper.process(inGain * left[i]);
         right[i] = left[i];
     }
 
