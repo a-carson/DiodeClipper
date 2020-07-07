@@ -1,0 +1,221 @@
+
+Builds/VisualStudio2019/.vs/ClippingNonlinearities/v16/.suo
+Builds/VisualStudio2019/.vs/ClippingNonlinearities/v16/Browse.VC.db
+Builds/VisualStudio2019/.vs/ClippingNonlinearities/v16/ipch/AutoPCH/2e511aa263eecb8b/INCLUDE_JUCE_AUDIO_PROCESSORS.ipch
+Builds/VisualStudio2019/.vs/ClippingNonlinearities/v16/ipch/AutoPCH/3d06aae213075723/PLUGINPROCESSOR.ipch
+Builds/VisualStudio2019/.vs/ClippingNonlinearities/v16/ipch/AutoPCH/b4971c7e9fa0b44c/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/ClippingNonlinearities/v16/Solution.VC.db
+Builds/VisualStudio2019/ClippingNonlinearities.sln
+Builds/VisualStudio2019/ClippingNonlinearities_SharedCode.vcxproj
+Builds/VisualStudio2019/ClippingNonlinearities_SharedCode.vcxproj.filters
+Builds/VisualStudio2019/ClippingNonlinearities_SharedCode.vcxproj.user
+Builds/VisualStudio2019/ClippingNonlinearities_StandalonePlugin.vcxproj
+Builds/VisualStudio2019/ClippingNonlinearities_StandalonePlugin.vcxproj.filters
+Builds/VisualStudio2019/ClippingNonlinearities_StandalonePlugin.vcxproj.user
+Builds/VisualStudio2019/ClippingNonlinearities_VST3.vcxproj
+Builds/VisualStudio2019/ClippingNonlinearities_VST3.vcxproj.filters
+Builds/VisualStudio2019/ClippingNonlinearities_VST3.vcxproj.user
+Builds/VisualStudio2019/resources.rc
+Builds/VisualStudio2019/x64/Debug/Shared Code/Clipping.67A40DD4.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/Clipping.67A40DD4.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/Clipping.67A40DD4.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/Clipping.67A40DD4.tlog/ClippingNonlinearities_SharedCode.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Shared Code/Clipping.67A40DD4.tlog/Lib-link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/Clipping.67A40DD4.tlog/Lib-link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/Clipping.67A40DD4.tlog/Lib.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/ClippingNonlinearities.lib
+Builds/VisualStudio2019/x64/Debug/Shared Code/ClippingNonlinearities_SharedCode.log
+Builds/VisualStudio2019/x64/Debug/Shared Code/ClippingNonlinearities_SharedCode.pdb
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_basics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_devices.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_formats.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_plugin_client_utils.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_processors.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_utils.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_core.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_cryptography.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_data_structures.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_dsp.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_events.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_graphics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_gui_basics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_gui_extra.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_opengl.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginEditor.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginProcessor.obj
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/ClippingNonlinearities_StandalonePlugin.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/link.2024.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/link.26360.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/link.30872.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/link.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/rc.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/rc.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/rc.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/ClippingNonlinearities.exe
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/ClippingNonlinearities.ilk
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/ClippingNonlinearities.pdb
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/ClippingNonlinearities_StandalonePlugin.log
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/include_juce_audio_plugin_client_Standalone.obj
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/resources.res
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/vc142.pdb
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/ClippingNonlinearities_VST3.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/ClippingNonlinearities_VST3.write.1u.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/link.13592.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/link.4368.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/link.7432.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/link.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/rc.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/rc.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/rc.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/ClippingNonlinearities.exp
+Builds/VisualStudio2019/x64/Debug/VST3/ClippingNonlinearities.ilk
+Builds/VisualStudio2019/x64/Debug/VST3/ClippingNonlinearities.lib
+Builds/VisualStudio2019/x64/Debug/VST3/ClippingNonlinearities.pdb
+Builds/VisualStudio2019/x64/Debug/VST3/ClippingNonlinearities.vst3
+Builds/VisualStudio2019/x64/Debug/VST3/ClippingNonlinearities_VST3.log
+Builds/VisualStudio2019/x64/Debug/VST3/include_juce_audio_plugin_client_VST3.obj
+Builds/VisualStudio2019/x64/Debug/VST3/resources.res
+Builds/VisualStudio2019/x64/Debug/VST3/vc142.pdb
+JuceLibraryCode/AppConfig.h
+JuceLibraryCode/include_juce_audio_basics.cpp
+JuceLibraryCode/include_juce_audio_basics.mm
+JuceLibraryCode/include_juce_audio_devices.cpp
+JuceLibraryCode/include_juce_audio_devices.mm
+JuceLibraryCode/include_juce_audio_formats.cpp
+JuceLibraryCode/include_juce_audio_formats.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AAX.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_AAX.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AU.r
+JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AUv3.mm
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS.r
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_1.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_2.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_3.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_4.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.mm
+JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_Unity.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm
+JuceLibraryCode/include_juce_audio_processors.cpp
+JuceLibraryCode/include_juce_audio_processors.mm
+JuceLibraryCode/include_juce_audio_utils.cpp
+JuceLibraryCode/include_juce_audio_utils.mm
+JuceLibraryCode/include_juce_core.cpp
+JuceLibraryCode/include_juce_core.mm
+JuceLibraryCode/include_juce_cryptography.cpp
+JuceLibraryCode/include_juce_cryptography.mm
+JuceLibraryCode/include_juce_data_structures.cpp
+JuceLibraryCode/include_juce_data_structures.mm
+JuceLibraryCode/include_juce_dsp.cpp
+JuceLibraryCode/include_juce_dsp.mm
+JuceLibraryCode/include_juce_events.cpp
+JuceLibraryCode/include_juce_events.mm
+JuceLibraryCode/include_juce_graphics.cpp
+JuceLibraryCode/include_juce_graphics.mm
+JuceLibraryCode/include_juce_gui_basics.cpp
+JuceLibraryCode/include_juce_gui_basics.mm
+JuceLibraryCode/include_juce_gui_extra.cpp
+JuceLibraryCode/include_juce_gui_extra.mm
+JuceLibraryCode/include_juce_opengl.cpp
+JuceLibraryCode/include_juce_opengl.mm
+JuceLibraryCode/JuceHeader.h
+JuceLibraryCode/JucePluginDefines.h
+JuceLibraryCode/ReadMe.txt
+Builds/VisualStudio2019/x64/Debug/VST3/vc.nativecodeanalysis.all.xml
+Builds/VisualStudio2019/x64/Debug/VST3/NativeCodeAnalysis.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/include_juce_audio_plugin_client_VST3.nativecodeanalysis.xml
+Builds/VisualStudio2019/x64/Debug/VST3/include_juce_audio_plugin_client_VST3.nativecodeanalysis.sarif
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper_VST3.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper_VST3.log
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper.vst3.lastcodeanalysissucceeded
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper.vst3
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper.pdb
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper.lib
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper.ilk
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper.exp
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeClipper.Build.CppClean.log
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/rc.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/rc.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/rc.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/link.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/DiodeClipper_VST3.write.1u.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/DiodeClipper_VST3.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/DiodeCli.5497194A.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/VST3/Clipping.5497194A.tlog/link.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeClipper_StandalonePlugin.log
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeClipper.pdb
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeClipper.ilk
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeClipper.exe
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/rc.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/rc.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/rc.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/link.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/DiodeClipper_StandalonePlugin.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DiodeCli.9A17288F.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/Clipping.9A17288F.tlog/link.delete.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeClipper_SharedCode.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeClipper_SharedCode.pdb
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeClipper_SharedCode.log
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeClipper.lib
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeClipper.Build.CppClean.log
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeCli.67A40DD4.tlog/Lib.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeCli.67A40DD4.tlog/Lib-link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeCli.67A40DD4.tlog/Lib-link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeCli.67A40DD4.tlog/DiodeClipper_SharedCode.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeCli.67A40DD4.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeCli.67A40DD4.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DiodeCli.67A40DD4.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/VADiodeClipper_VST3.vcxproj.filters
+Builds/VisualStudio2019/VADiodeClipper_VST3.vcxproj
+Builds/VisualStudio2019/VADiodeClipper_StandalonePlugin.vcxproj.filters
+Builds/VisualStudio2019/VADiodeClipper_StandalonePlugin.vcxproj
+Builds/VisualStudio2019/VADiodeClipper_SharedCode.vcxproj.filters
+Builds/VisualStudio2019/VADiodeClipper_SharedCode.vcxproj
+Builds/VisualStudio2019/VADiodeClipper.sln
+Builds/VisualStudio2019/DiodeClipper_VST3.vcxproj.user
+Builds/VisualStudio2019/DiodeClipper_VST3.vcxproj.filters
+Builds/VisualStudio2019/DiodeClipper_VST3.vcxproj
+Builds/VisualStudio2019/DiodeClipper_StandalonePlugin.vcxproj.user
+Builds/VisualStudio2019/DiodeClipper_StandalonePlugin.vcxproj.filters
+Builds/VisualStudio2019/DiodeClipper_StandalonePlugin.vcxproj
+Builds/VisualStudio2019/DiodeClipper_SharedCode.vcxproj.user
+Builds/VisualStudio2019/DiodeClipper_SharedCode.vcxproj.filters
+Builds/VisualStudio2019/DiodeClipper_SharedCode.vcxproj
+Builds/VisualStudio2019/DiodeClipper.sln
+Builds/VisualStudio2019/.vs/VADiodeClipper/v16/Solution.VC.db
+Builds/VisualStudio2019/.vs/VADiodeClipper/v16/Browse.VC.db
+Builds/VisualStudio2019/.vs/VADiodeClipper/v16/.suo
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/Solution.VC.db-wal
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/Solution.VC.db-shm
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/Solution.VC.db
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/ipch/AutoPCH/48eda9c2295f14f7/PLUGINPROCESSOR.ipch
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/ipch/AutoPCH/19cd6beb7fe1c1d8/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/Browse.VC.opendb
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/Browse.VC.db
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/.suo
+Builds/VisualStudio2019/.vs/ClippingNonlinearities/v16/ipch/AutoPCH/8f7603d1bdcd0e2c/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/DiodeClipper/v16/ipch/AutoPCH/9141ee12cc08117f/INCLUDE_JUCE_AUDIO_PROCESSORS.ipch
