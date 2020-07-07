@@ -2,14 +2,27 @@
 #ifndef DiodeClipper_h
 #define DiodeClipper_h
 #include <cmath>
-
+using namespace dsp;
 template<class temp>
 
 class DiodeClipper
 {
 public:
 
-	DiodeClipper(){};
+	DiodeClipper()
+	{
+		// initialise
+		x = 0.0f;
+		y = 0.0f;
+
+		// default parameters
+		R = 1000.0f;
+		C = 33e-9f;
+		fs = 48000.0f;
+		Is = 2.52e-9f;
+		Vt = 25.83e-3f;
+		Ni = 1.752f;
+	};
 
 	void setSampleRate(temp sampleRate)
 	{
@@ -32,21 +45,33 @@ public:
 	void initialise()
 	{
 		cap = Ni * Vt * acosh((2.0f*fs*R*C + 1.0f) * Ni * Vt / (2.0f * Is * R));
-		x = 0.0f;
-		y = 0.0f;
-		y_prev = 0.0f;
 	}
 
 	// Non linear function
 	temp func(temp Y, temp p)
 	{
-		return Y*R*C + (Y + (2.0f*Is*R) * sinh(Y/(Ni*Vt)) - p) / (2.0f*fs);
+		return Y * R * C + (Y + (2.0f * Is * R) * sinh(Y /(Ni * Vt)) - p) / (2.0f * fs);
 	}
 
 	// Derivative of Non-linear function
 	temp dfunc(temp Y)
 	{
-		return R * C + (1 + (2 * Is * R / (Ni * Vt)) * cosh(Y / (Ni * Vt))) / (2.0f * fs);
+		return R * C + (1 + (2.0f * Is * R / (Ni * Vt)) * cosh(Y / (Ni * Vt))) / (2.0f * fs);
+	}
+
+	// Fast approximation of function
+	temp fastFunc(temp Y, temp p)
+	{
+		temp sinhy = FastMathApproximations::sinh<temp>(Y / (Ni * Vt));
+		return Y * R *C + (Y + (2.0f * Is * R) * sinhy - p) / (2.0f*fs);
+
+	}
+
+	// Fast aproximation of derivative
+	temp fastDfunc(temp Y)
+	{
+		temp coshy = FastMathApproximations::cosh<temp>(Y / (Ni * Vt));
+		return R * C + (1 + (2 * Is * R / (Ni * Vt))*coshy) / (2.0f * fs);
 	}
 
 	// Main Process
@@ -62,21 +87,37 @@ public:
 
 		while ((cond > tol) && (iter < maxIters))
 		{
-			// pop a cap
+			// Cap step size if necessary
 			if (step > cap)
 			{
 				step = cap;
 			}
-
 			if (step < -1.0f * cap)
 			{
 				step = -1.0f * cap;
 			}
 
+			// Newton step
 			y -= step;
-			res = func(y, p);
-		    J = dfunc(y);
+			
+			// Check argument
+			temp arg = y / (Ni * Vt);
+
+			// Compute residual and jacobian
+			if (fabsf(arg) < 5)
+			{
+				res = fastFunc(y, p);
+				J = fastDfunc(y);
+			}
+			else
+			{
+				res = func(y, p);
+				J = dfunc(y);
+			}
+
+			// Calculate step
 			step = res / J;
+
 			iter++;
 			cond = fabsf(step);
 		}
@@ -87,9 +128,11 @@ public:
 			y = 0;
 		}
 
+		// update state variable
 		x =  4.0f * fs * y * R * C - x;
 		return y;
 	}
+
 private:
 
 	// Sample Rate
@@ -98,16 +141,12 @@ private:
 	// state variable
 	temp x;
 
-	// input variable
-	temp u;
-
 	// output variable
 	temp y;
-	temp y_prev;
 
 	// Circuit parameters
-	temp C;								// capactance
-	temp R;								// resistance
+	temp C;									// capactance
+	temp R;									// resistance
 	temp Is;								// saturation current
 	temp Vt;								// thermal voltage
 	temp Ni;								// ideality factor
@@ -116,7 +155,7 @@ private:
 	temp cap;
 	const temp tol = 1e-7;						// tolerance
 	const unsigned int maxIters = 25;  // maximum number of iterations
-	int iter = 0;
+	unsigned int iter = 0;
 };
 #endif // !DiodeClipper_h
 
