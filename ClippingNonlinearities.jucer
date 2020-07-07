@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="tvvm3C" name="ClippingNonlinearities" projectType="audioplug"
-              jucerVersion="5.4.6">
-  <MAINGROUP id="JzGk1V" name="ClippingNonlinearities">
+<JUCERPROJECT id="tvvm3C" name="DiodeClipper" projectType="audioplug" jucerVersion="5.4.6">
+  <MAINGROUP id="JzGk1V" name="DiodeClipper">
     <GROUP id="{0C3561A7-D2A3-938B-3E04-A57FBE935AEF}" name="Source">
       <FILE id="rL89Ft" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
